@@ -54,7 +54,7 @@ public class Assignment1Application {
             System.out.printf("1 " + currencyName + " = %.2f " + currencyTo, price);
 
         } catch (JsonProcessingException ex) {
-            System.out.println("error in EUR Price");
+            System.out.println("error in Currency Price");
         }
     }
 
